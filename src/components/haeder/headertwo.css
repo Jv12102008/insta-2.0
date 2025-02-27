@@ -1,0 +1,52 @@
+.hidden{
+    display: none;
+}
+.App-headertwo {
+  padding-top: 5px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 1);
+  border-bottom: solid 1px rgba(219, 219, 219, 1);
+}
+.App-headertwo nav {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App-headertwo nav ul {
+  width: 100%;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.App-headertwo nav ul li {
+  display: flex;
+  text-decoration: none;
+}
+.App-headertwo .header-soon-img {
+  width: 50px;
+  height: 30px;
+}
+.App-headertwo .header-soon-name {
+    border: none;
+  width: 100px;
+  height: 30px;
+}
+.App-headertwo .icon {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 50px;
+  height: 30px;
+}
+@media (max-width: 626px) {
+  .hidden {
+    display: ruby;
+  }
+}

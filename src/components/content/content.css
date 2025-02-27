@@ -24,6 +24,7 @@
     margin-inline: auto;
       flex-direction: column;
       display: flex;
+      align-items: center;
       gap: 20px;
     }
 
@@ -33,9 +34,9 @@
 }
 @media (max-width: 626px) {
   .content_tab_one {
-    width: 100%;
+    width: 90%;
+    margin-inline: auto;
     flex-direction: column;
     display: flex;
-    justify-items: center;
   }
 }

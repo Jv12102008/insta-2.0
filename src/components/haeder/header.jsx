@@ -27,7 +27,7 @@ export function Header() {
             <button className="look_for">Pesquisar</button>
           </li>
           <li>
-            <img className="icon visible" src={paper_plane} alt="icon do header" />
+            <img className="icon" src={paper_plane} alt="icon do header" />
             <img className="icon" src={compass} alt="icon do header" />
             <img className="icon" src={heart} alt="icon do header" />
             <img className="icon" src={person} alt="icon do header" />
